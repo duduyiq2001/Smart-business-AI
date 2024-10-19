@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync } from "fs";
  */
 export function writeToEnv(entryName, entryValue) {
   // Read the existing .env file content
-  let envFileContent = readFileSync(envFilePath, "utf8");
+  let envFileContent = readFileSync("../.env", "utf8");
 
   // Create a dynamic regex pattern to match any entry with the provided entryName
   const regexPattern = new RegExp(`^${entryName}=.*`, "m");
@@ -24,5 +24,5 @@ export function writeToEnv(entryName, entryValue) {
   }
 
   // Write the updated content back to the .env file
-  writeFileSync("../,env", envFileContent);
+  writeFileSync("../.env", envFileContent);
 }
