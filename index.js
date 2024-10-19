@@ -1,6 +1,6 @@
-import OpenBanking from "open_banking";
-import { createClient } from "./api/createclient";
+import ApiClient from "./clientapi/src/index.js";
+import { createClient } from "./api/createclient.js";
 
-let OpenAPIClient = OpenBanking.ApiClient.instance;
+let OpenAPIClient = ApiClient();
 
 createClient(OpenAPIClient);
