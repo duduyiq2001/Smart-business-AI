@@ -1,7 +1,12 @@
 {
+  "name": "smart-business-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "type": "module",
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^X.X.X"
+    "@openapitools/openapi-generator-cli": "^2.14.0"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
