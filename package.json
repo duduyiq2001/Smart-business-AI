@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^X.X.X"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
