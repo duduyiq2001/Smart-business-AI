@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Dashboard, Login, Register, LandingPage,Chatbox } from './pages';
+import { Dashboard, Login, Register, LandingPage,Chatbox, Transactions, BusinessMetrics} from './pages';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +23,14 @@ const router = createBrowserRouter([
     path: '/ai',
     element: <Chatbox />,
   },
+  {
+    path: '/transaction-history',
+    element: <Transactions/>,
+  },
+  {
+    path: '/business-metrics',
+    element: <BusinessMetrics />,
+  }
 ]);
 
 function App() {

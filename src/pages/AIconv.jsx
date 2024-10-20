@@ -22,7 +22,6 @@ function Chatbox() {
     const customerId = import.meta.env.VITE_CUSTOMER_ID;
     const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
     // add keys here 
-    console.log(`key ${OPENAI_API_KEY}`)
 
     const [conversation, setConversation] = useState(null); // To store Langchain conversation instance
     const [input, setInput] = useState(""); // Input state for user messages
