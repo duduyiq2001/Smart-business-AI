@@ -12,7 +12,7 @@ const PARTNER_SECRET = process.env.PARTNER_SECRET;
 let token = process.env.ACCESS_TOKEN;
 let expiry = null;
 // Create the API client
-const createClient = function (openAPIClient) {
+export function createClient(openAPIClient) {
   // Use a promise to ensure the token has been added before sending the request
   return new Promise((resolve) => {
     let client = openAPIClient.ApiClient.instance;
@@ -65,6 +65,4 @@ const createClient = function (openAPIClient) {
       resolve(client);
     });
   });
-};
-
-export default createClient;
+}

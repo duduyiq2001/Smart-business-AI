@@ -1,9 +1,23 @@
 {
+  "name": "smart-business-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "node index.js"
+  },
   "type": "module",
   "devDependencies": {
-    "@openapitools/openapi-generator-cli": "^X.X.X"
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@openapitools/openapi-generator-cli": "^2.14.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "superagent": "^10.1.1"
   }
 }
