@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { initializeChat, sendMessage } from "../../api/getlangchain.js";
+import { getAllTrans } from "../../api/getalltrancs.js";
+import { getclient, getAIResponse } from "../../api/getaires.js";
 import {
     Box,
     Button,
@@ -10,38 +11,37 @@ import {
     ListItem,
     ListItemText,
 } from "@mui/material";
-import { getAllTrans } from "../../api/getalltrancs.js";
-
-
-
 
 function Chatbox() {
-    // Define environment variables for API keys and customer information
     const APP_KEY = import.meta.env.VITE_APP_KEY;
     const token = import.meta.env.VITE_ACCESS_TOKEN;
     const customerId = import.meta.env.VITE_CUSTOMER_ID;
     const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
-    // add keys here 
 
-    const [conversation, setConversation] = useState(null); // To store Langchain conversation instance
+    const [openai, setOpenai] = useState(null); // OpenAI client instance
     const [input, setInput] = useState(""); // Input state for user messages
     const [messages, setMessages] = useState([]); // Messages state to store the conversation history
+    const [context, setContext] = useState(""); // Store conversation history manually
+    const [transactionLoaded, setTransactionLoaded] = useState(false); // Check if transactions are loaded
 
     // Send the message and get AI response
     const handleSend = async () => {
-        if (input.trim() === "") return;
+        if (input.trim() === "" || !openai) return;
 
-        // Append user message to message history
         const userMessage = { sender: "user", text: input };
         setMessages((prevMessages) => [...prevMessages, userMessage]);
 
-        // Send message to Langchain AI
-        if (conversation) {
-            const aiResponse = await sendMessage(conversation, input); // Use conversation instance
-            const aiMessage = { sender: "ai", text: aiResponse };
+        // Update the context (append user's message to conversation history)
+        const updatedContext = `${context}\nUser: ${input}`;
+        setContext(updatedContext);
 
-            // Append AI message to message history
+        if (openai) {
+            const aiResponse = await getAIResponse(openai, updatedContext);
+            const aiMessage = { sender: "ai", text: aiResponse.content }; // Update to use `content`
+
+            // Append AI message to the conversation history and messages
             setMessages((prevMessages) => [...prevMessages, aiMessage]);
+            setContext((prevContext) => `${prevContext}\nAI: ${aiResponse.content}`);
         }
 
         setInput(""); // Clear the input field after sending
@@ -49,31 +49,36 @@ function Chatbox() {
 
     useEffect(() => {
         const initChat = async () => {
-            // Initialize the Langchain conversation instance
-            const conv = await initializeChat(OPENAI_API_KEY);
-            setConversation(conv);
-
-            // Fetch transaction data from the API
             try {
+                // Initialize the OpenAI client
+                const client = await getclient(OPENAI_API_KEY);
+                setOpenai(client);
+
+                // Fetch transaction data from the API and send it to the AI
                 const transactions = await getAllTrans(20, customerId, APP_KEY, token);
-                console.log("Fetched Transactions:", transactions); // For debugging
+                console.log("Fetched Transactions:", transactions);
 
-                // Send the transaction data to the AI in the background
-                if (conv) {
-                    const aiResponse = await sendMessage(conv, JSON.stringify(transactions));
-                    const aiMessage = { sender: "ai", text: aiResponse };
-
-                    // Append AI message to message history
+                if (!transactionLoaded) {
+                    // Send the transaction data to the AI once, add it to context
+                    const aiResponse = await getAIResponse(client, JSON.stringify(transactions));
+                    const aiMessage = { sender: "ai", text: aiResponse.content };
                     setMessages((prevMessages) => [...prevMessages, aiMessage]);
+                    setContext(`AI: ${aiResponse.content}`); // Initialize the context with AI response
+                    setTransactionLoaded(true); // Set the flag to true so that this only runs once
                 }
+
             } catch (error) {
-                console.error("Error fetching transactions:", error);
+                console.error("Error initializing chat or fetching transactions:", error);
             }
         };
 
-        initChat();
-    }, [APP_KEY, token, customerId, OPENAI_API_KEY]); // Only run when keys change
+        // Run only once after initial rendering
+        if (!transactionLoaded) {
+            initChat();
+        }
+    }, [APP_KEY, token, customerId, OPENAI_API_KEY, transactionLoaded]);
 
+    // To avoid double messaging, handleSend is triggered only by user input
     return (
         <Container maxWidth="md" sx={{ marginTop: 4 }}>
             <Typography variant="h4" gutterBottom>
