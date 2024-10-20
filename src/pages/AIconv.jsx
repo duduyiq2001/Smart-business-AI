@@ -13,11 +13,17 @@ import {
 import { getAllTrans } from "../../api/getalltrancs.js";
 
 
+
+
 function Chatbox() {
     // Define environment variables for API keys and customer information
-
+    const APP_KEY = import.meta.env.VITE_APP_KEY;
+    const token = import.meta.env.VITE_ACCESS_TOKEN;
+    const customerId = import.meta.env.VITE_CUSTOMER_ID;
+    const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
     // add keys here 
-   
+    console.log(`key ${OPENAI_API_KEY}`)
+
     const [conversation, setConversation] = useState(null); // To store Langchain conversation instance
     const [input, setInput] = useState(""); // Input state for user messages
     const [messages, setMessages] = useState([]); // Messages state to store the conversation history
