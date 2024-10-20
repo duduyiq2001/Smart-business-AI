@@ -3,6 +3,11 @@ import { Box, Button, TextField, Typography, Container } from '@mui/material';
 import { Footer, Navbar } from '../components'
 
 function Login() {
+  const handleLogin = () => {
+    // Navigate to the dashboard page regardless of input
+    navigate('/dashboard');
+  };
+
   return (
     <Container maxWidth="lg">
         <Navbar />
@@ -24,7 +29,7 @@ function Login() {
           margin="normal" 
         />
         <Box sx={{ mt: 2 }}>
-          <Button variant="contained" color="primary" fullWidth>
+          <Button variant="contained" color="primary" href = "/dashboard" fullWidth  >
             Login
           </Button>
         </Box>
