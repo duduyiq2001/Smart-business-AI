@@ -1,0 +1,1 @@
+// parse function to parse json trans data and put them into transaction arrays
