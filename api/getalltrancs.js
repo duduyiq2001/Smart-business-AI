@@ -1,4 +1,6 @@
 import axios from "axios";
+
+
 const base_url = "https://api.finicity.com/";
 const params = {
   fromDate: 1000000000,
@@ -12,9 +14,18 @@ const params = {
 export async function getAllTrans(num, customerId, APP_KEY, token) {
 
   try {
+
+    let params = {
+      fromDate: 1000000000,
+      includePending: true,
+      toDate: 1729374515,
+      limit: num,
+      sort: "desc",
+    };
+    
     // Make an asynchronous request and await the response
     const response = await axios.get(
-      `${base_url}aggregation/v3/customers/${customerId}/transactions`,
+      `/api/finicity/aggregation/v3/customers/${customerId}/transactions`,
       {
         headers: {
           "Finicity-App-Key": APP_KEY,  // App key header
@@ -27,6 +38,7 @@ export async function getAllTrans(num, customerId, APP_KEY, token) {
     // Return the response data
     return response.data;
   } catch (error) {
+    console.log(error)
     console.error("Error:", error.response ? error.response.data : error.message);
     throw new Error("Can't get API response");
   }
