@@ -2,10 +2,11 @@ const fs = require("fs");
 const path = require("path");
 
 // Directory where your JavaScript files are located
-const directoryPath = "./clientapi/src"; // Change this to your source directory
+const directoryPath = path.resolve(__dirname, "./clientapi1/src"); // Ensure an absolute path
 
 // Regex to match import/export statements without file extensions
-const importRegex = /(import\s+.*\s+from\s+['"])(\.\/[^'"]+)(['"];?)/g;
+const importRegex =
+  /(import\s+[\s\S]*?\s+from\s+['"])(\.[\.\/][^'"]+)(['"];?)/g;
 
 function processFile(filePath) {
   // Read the file content
@@ -36,7 +37,7 @@ function processDirectory(dirPath) {
     const fullPath = path.join(dirPath, file);
 
     // Check if it's a directory
-    if (fs.lstatSync(fullPath).isDirectory()) {
+    if (fs.statSync(fullPath).isDirectory()) {
       // Recursively process subdirectories
       processDirectory(fullPath);
     } else if (file.endsWith(".js")) {
