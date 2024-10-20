@@ -1,0 +1,364 @@
+{
+    "found": 6218,
+    "displaying": 20,
+    "moreAvailable": "true",
+    "fromDate": "1000000000",
+    "toDate": "1729374515",
+    "sort": "desc",
+    "transactions": [
+        {
+            "id": 28810630408,
+            "amount": -505.43,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "pos deb  //  i",
+            "memo": "pos deb  //  in care tech mechanical in care tech mech austin tx c#",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "In Care Tech",
+                "category": "Doctor",
+                "bestRepresentation": "POS DEB IN CARE TECH MECHANICAL IN CARE TECH MECH AUSTIN TX",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810630361,
+            "amount": 2898.63,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "Comb Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810630319,
+            "amount": 621.85,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "th       grubhub, inc. c g ve",
+            "memo": "th grubhub, inc. c quantarus capital lp st-lyohql",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "GrubHub",
+                "category": "Deposit",
+                "bestRepresentation": "TH GRUBHUB INC VE TH GRUBHUB INC QUANTARUS CAPITAL LP ST LYOHQL",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810628778,
+            "amount": -12361.71,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "tfr from **** to **** pa",
+            "memo": "tfr from **** to **** payroll reimbursement oct th",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "Tfr",
+                "category": "Financial",
+                "bestRepresentation": "TFR FROM TO PAYROLL REIMBURSEMENT OCT TH",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810628732,
+            "amount": 734.31,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "dda deposit",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "dda deposit",
+                "category": "Deposit",
+                "bestRepresentation": "DDA DEPOSIT",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810628693,
+            "amount": 382.44,
+            "accountId": 7059356778,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens  ol",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390825,
+            "categorization": {
+                "normalizedPayeeName": "One Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS OL",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810628324,
+            "amount": 12.24,
+            "accountId": 7059356784,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "interest paid",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390824,
+            "categorization": {
+                "normalizedPayeeName": "Paid",
+                "category": "Interest Income",
+                "bestRepresentation": "INTEREST PAID",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810628290,
+            "amount": -61.83,
+            "accountId": 7059356784,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "cable pmnt optimum  ppd",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390824,
+            "categorization": {
+                "normalizedPayeeName": "Cable Pmnt Optimum",
+                "category": "Television",
+                "bestRepresentation": "CABLE PMNT OPTIMUM PPD",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810627922,
+            "amount": 282.99,
+            "accountId": 7059356783,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens  ol",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390823,
+            "categorization": {
+                "normalizedPayeeName": "One Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS OL",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810627252,
+            "amount": 258.34,
+            "accountId": 7059356783,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "unive grubhub, inc. c g ve",
+            "memo": "unive grubhub, inc. c quantarus capital lp st-fckrwd",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390823,
+            "categorization": {
+                "normalizedPayeeName": "GrubHub",
+                "category": "Deposit",
+                "bestRepresentation": "UNIVE GRUBHUB INC VE UNIVE GRUBHUB INC QUANTARUS CAPITAL LP ST FCKRWD",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810627222,
+            "amount": -10271.77,
+            "accountId": 7059356783,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "tfr from **** to **** pa",
+            "memo": "tfr from **** to **** payroll reimbursement oct th",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390823,
+            "categorization": {
+                "normalizedPayeeName": "Tfr",
+                "category": "Financial",
+                "bestRepresentation": "TFR FROM TO PAYROLL REIMBURSEMENT OCT TH",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810627176,
+            "amount": 3623.69,
+            "accountId": 7059356783,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390823,
+            "categorization": {
+                "normalizedPayeeName": "Comb Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810626535,
+            "amount": -404.00,
+            "accountId": 7059356783,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "internet bill pay \\serialnum",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390822,
+            "categorization": {
+                "normalizedPayeeName": "Internet",
+                "category": "Bills & Utilities",
+                "bestRepresentation": "INTERNET BILL PAY SERIALNUM",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810625961,
+            "amount": -525.49,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "cable pmnt optimum  ppd",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390821,
+            "categorization": {
+                "normalizedPayeeName": "Cable Pmnt Optimum",
+                "category": "Television",
+                "bestRepresentation": "CABLE PMNT OPTIMUM PPD",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810625909,
+            "amount": 2981.43,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390821,
+            "categorization": {
+                "normalizedPayeeName": "Comb Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810625046,
+            "amount": -10651.80,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "tfr from **** to **** pa",
+            "memo": "tfr from **** to **** payroll reimbursement oct th",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390821,
+            "categorization": {
+                "normalizedPayeeName": "Tfr",
+                "category": "Financial",
+                "bestRepresentation": "TFR FROM TO PAYROLL REIMBURSEMENT OCT TH",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810624998,
+            "amount": 324.49,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "th  grubhub, inc. <>",
+            "memo": "th grubhub, inc. <> chickens llc st-ivieen",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390821,
+            "categorization": {
+                "normalizedPayeeName": "GrubHub",
+                "category": "Deposit",
+                "bestRepresentation": "TH GRUBHUB INC CHICKENS LLC ST IVIEEN",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810624967,
+            "amount": -454.64,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "util pymt  consolidated edison sgl web",
+            "memo": "util pymt consolidated edison sgl web  s",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390821,
+            "categorization": {
+                "normalizedPayeeName": "Consolidated Edison Sgl",
+                "category": "Utilities",
+                "bestRepresentation": "UTIL PYMT CONSOLIDATED EDISON SGL WEB",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810624266,
+            "amount": 230.81,
+            "accountId": 7059356782,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "comb. dep. / merchant one sys <>",
+            "memo": "comb. dep. / merchant one sys <> chickens  ol",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390820,
+            "categorization": {
+                "normalizedPayeeName": "One Sys Chickens",
+                "category": "Deposit",
+                "bestRepresentation": "COMB DEP MERCHANT ONE SYS CHICKENS OL",
+                "country": "USA"
+            }
+        },
+        {
+            "id": 28810623629,
+            "amount": -61.83,
+            "accountId": 7059356781,
+            "customerId": 7033721255,
+            "status": "active",
+            "description": "cable pmnt optimum  ppd",
+            "postedDate": 1729339200,
+            "transactionDate": 1729339200,
+            "createdDate": 1729390819,
+            "categorization": {
+                "normalizedPayeeName": "Cable Pmnt Optimum",
+                "category": "Television",
+                "bestRepresentation": "CABLE PMNT OPTIMUM PPD",
+                "country": "USA"
+            }
+        }
+    ]
+}
