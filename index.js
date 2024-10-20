@@ -3,17 +3,22 @@ import dotenv from "dotenv";
 dotenv.config();
 import { getAllTrans } from "./api/getalltrancs.js";
 import { response } from "express";
-import { getAIResponse } from "./api/getaires.js";
+
+
+import { initializeChat,sendMessage } from "./api/getlangchain.js";
 
 // Ensure all environment variables are set
 const APP_KEY = process.env.APP_KEY?.trim();
 const token = process.env.ACCESS_TOKEN?.trim();
 const customerId = process.env.CUSTOMER_ID || "7033717872"; // Hard-code for testing
+const OpenAI_KEY = process.env.OpenAI_KEY;
 // let res = await getAllTrans(20,customerId,APP_KEY,token)
 // console.log(res)
 
-let res = await getAIResponse("explain to me how fourier transform works")
+let chat = await initializeChat();
+let res = await sendMessage(chat, "why is llmchain deprecated in langchain now");
 console.log(res)
+
 
 // axios
 //   .get(

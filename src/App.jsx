@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Dashboard, Login, Register, LandingPage } from './pages';
+import { Dashboard, Login, Register, LandingPage,Chatbox } from './pages';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/dashboard',
     element: <Dashboard />,
+  },
+  {
+    path: '/ai',
+    element: <Chatbox />,
   },
 ]);
 
