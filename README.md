@@ -1,4 +1,4 @@
-# SMART BUSINESS SOLUTIONS: A BUSINESS FINANCE ANALYSIS APP POWERED BY AI
+## SMART BUSINESS SOLUTIONS: A BUSINESS FINANCE ANALYSIS APP POWERED BY AI
 
 <div>
     <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"> </a>
@@ -24,3 +24,13 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
 - **Chatbot 🤖 Feature**: Allows the LLM to engage in conversation with users about their business situation.
 - **📊 Graph Visualization**: Provides visual insights into business revenue and expenses.
 - **Transaction History Table**: Displays a table view of the most recent transaction history.
+
+## 👨‍💻 DEMO
+
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=djM6WgRdrxo&autoplay=1" target="_blank">
+        <img src="https://img.youtube.com/vi/djM6WgRdrxo/0.jpg" alt="Watch the video" width="600"/>
+    </a>
+    <br>
+    <b>Watch a Demo of Smart Business Solutions</b>
+</div>
