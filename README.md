@@ -22,8 +22,24 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
 ## 🚀 FEATURES
 
 - **Chatbot 🤖 Feature**: Allows the LLM to engage in conversation with users about their business situation.
+<div align="center">
+        <img src="chat.png" alt="Watch the video" width="600"/>
+    <br>
+    <b>Transactions table </b>
+</div>
+
 - **📊 Graph Visualization**: Provides visual insights into business revenue and expenses.
+<div align="center">
+        <img src="graph.png" alt="Watch the video" width="600"/>
+    <br>
+    <b>Transactions table </b>
+</div>
 - **Transaction History Table**: Displays a table view of the most recent transaction history.
+<div align="center">
+        <img src="table.png"  width="600"/>
+    <br>
+    <b>Transactions table </b>
+</div>
 
 ## 👨‍💻 DEMO
 
