@@ -19,7 +19,7 @@ By integrating Mastercard’s Open Banking API 🏦, Smart Business Solutions se
 
 Whether you're a restaurant owner tracking daily expenses, a content creator managing income from multiple platforms, or an Amazon seller monitoring product sales and cash flow, Smart Business Solutions serves as an invaluable resource for streamlining finances and maximizing business potential.
 
-## 🚀 FEATURES
+### 🚀 FEATURES
 
 - **Chatbot 🤖 Feature**: Allows the LLM to engage in conversation with users about their business situation.
 <div align="center">
@@ -42,7 +42,7 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
     <b>Transactions table </b>
 </div>
 
-## 👨‍💻 DEMO
+### 👨‍💻 DEMO
 
 <div align="center">
     <a href="https://www.youtube.com/watch?v=djM6WgRdrxo&autoplay=1" target="_blank">
