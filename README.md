@@ -1,20 +1,12 @@
-
 # SMART BUSINESS SOLUTIONS: A BUSINESS FINANCE ANALYSIS APP POWERED BY AI
 
+<div>
 
-
-
-`<div>`
-
-    `<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red">``</a>`
-    `<a href="https://trendshift.io/repositories/5469" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5469" alt="open-mmlab%2FAmphion | Trendshift" style="width: 150px; height: 33px;" width="150" height="33"/>``</a>`
-
-`</div>`
+    <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"> </a>
+    <a href="https://trendshift.io/repositories/5469" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5469" alt="open-mmlab%2FAmphion | Trendshift" style="width: 150px; height: 33px;" width="150" height="33"/> </a>
 
 </div>
 <br>
-
-
 
 **Smart Business Solutions** is a dynamic, AI-powered web application built with React, specifically designed to deliver insightful financial analysis for small business owners. Tailored to meet the unique needs of local small-scale enterprises—such as neighborhood restaurants, self-employed individuals like content creators, and independent Amazon sellers—Smart Business Solutions offers valuable, data-driven support to empower users in making informed financial decisions.
 
@@ -24,6 +16,6 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
 
 ## 🚀 FEATURES
 
-* chatbot 🤖 feature, allow the llm to have a conversation with the customer about their business situation.
-* 📊 graph visualization of business revenue and expenses
-* table view of most recent transaction history
+- chatbot 🤖 feature, allow the llm to have a conversation with the customer about their business situation.
+- 📊 graph visualization of business revenue and expenses
+- table view of most recent transaction history
