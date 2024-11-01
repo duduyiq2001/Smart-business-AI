@@ -1,10 +1,8 @@
 # SMART BUSINESS SOLUTIONS: A BUSINESS FINANCE ANALYSIS APP POWERED BY AI
 
 <div>
-
     <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"> </a>
-    <a href="https://trendshift.io/repositories/5469" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5469" alt="open-mmlab%2FAmphion | Trendshift" style="width: 150px; height: 33px;" width="150" height="33"/> </a>
-
+    <a href="https://trendshift.io/repositories/5469" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5469" alt="open-mmlab%2FAmphion | Trendshift" width="150" height="33"/> </a>
 </div>
 <br>
 
@@ -16,6 +14,6 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
 
 ## 🚀 FEATURES
 
-- chatbot 🤖 feature, allow the llm to have a conversation with the customer about their business situation.
-- 📊 graph visualization of business revenue and expenses
-- table view of most recent transaction history
+- **Chatbot 🤖 Feature**: Allows the LLM to engage in conversation with users about their business situation.
+- **📊 Graph Visualization**: Provides visual insights into business revenue and expenses.
+- **Transaction History Table**: Displays a table view of the most recent transaction history.
