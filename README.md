@@ -34,6 +34,7 @@ Whether you're a restaurant owner tracking daily expenses, a content creator man
     <br>
     <b>Transactions table </b>
 </div>
+
 - **Transaction History Table**: Displays a table view of the most recent transaction history.
 <div align="center">
         <img src="table.png"  width="600"/>
