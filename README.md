@@ -2,6 +2,14 @@
 
 <div>
     <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"> </a>
+    <a href="https://hackathon.wustl.edu/" target="_blank"><img src="https://img.shields.io/badge/Hackathon-WashU-blue"></a>
+    <a href="https://mastercard.com" target="_blank"><img src="https://img.shields.io/badge/Mastercard%20Prize%20Winner-🏆-orange"></a>
+    <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/Built%20with-React-blue?logo=react"></a>
+    <img src="https://img.shields.io/badge/AI%20Powered-🤖-purple">
+    <a href="https://developer.mastercard.com/open-banking/" target="_blank"><img src="https://img.shields.io/badge/Powered%20by-Mastercard%20Open%20Banking-blue"></a>
+    <img src="https://img.shields.io/badge/Project-Hackathon-yellowgreen">
+    <img src="https://img.shields.io/badge/Supports-Small%20Business-yellow">
+
 </div>
 <br>
 
